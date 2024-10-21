@@ -28,9 +28,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="150sp"
-                        android:layout_height="150sp"
+                        android:id="@+id/imgItemDoctors"
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:layout_marginTop="20sp"
                         app:srcCompat="@drawable/dokter4" />
 
 
@@ -44,7 +45,7 @@
                     android:padding="10sp">
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/txtItemNamaDr"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -54,7 +55,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/txtItemBidangDr"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -72,7 +73,7 @@
                     android:padding="10sp">
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/txtItemJumlahReview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30sp"
@@ -82,13 +83,13 @@
 
                     <RatingBar
                         android:id="@+id/ratingBar"
-                        android:layout_width="wrap_content"
+                        android:layout_width="36dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20sp"
                         android:layout_weight="1" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/txtItemJumlahRating"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30sp"
